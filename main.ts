@@ -34,7 +34,7 @@ async function readMarkdownFile(filePath: string): Promise<Response> {
       <html lang="da">
       <head>
         <meta charset="UTF-8">
-        <title>mat grundforløb</title>
+        <title>prog valghold</title>
         <link rel="stylesheet" href="style.css">
       </head>
       <body>

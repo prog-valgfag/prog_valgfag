@@ -3,7 +3,7 @@
 
 
 <details class="blue">
-  <summary>Opgave 1 : I can copy I can code dd</summary>
+  <summary>Opgave 1 : I can copy I can code</summary>
   <pre class="white2">
   
     //kopier nedenstående over i p5js editoren

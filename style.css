@@ -65,6 +65,7 @@ details {
 .white {
   color: #000000;
   background: #ffffff;
+  font-size: 0.9em;
 }
 
 .blue {
@@ -75,4 +76,10 @@ details {
 summary {
   font-weight: bold;
   cursor: pointer;
+}
+
+.white2 {
+  color: #000000;
+  background: #ffffff;
+  font-size: 0.8em;
 }

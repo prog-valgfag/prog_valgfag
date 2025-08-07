@@ -1,7 +1,7 @@
-# 1.del. : Introduktion til faget - d.8/8-25
+<h1>1.del. : Introduktion til faget - d.8/8-25</h1>
 
 
-<details>
+<details class = "red">
   <summary>Undervisere</summary>
 
 <h5>Anders Juul Refslund Petersen, eksamens- og undervisnings-ansvarlig</h5>
@@ -14,7 +14,7 @@
  
 </details>
 
-<details>
+<details class = "red">
   <summary>Undervisningsform</summary>
     <ul>
         <li><b>Logbog:</b> vi skal anvende "logbog",- nedskrive erfaringer og gemme arbejde, et sted hvor underviserne kan følge med. Vi starter med at anvende p5js editoren, og bare skrive kommentarer i jeres filer</li> 
@@ -28,7 +28,7 @@
  
 </details>
 
-<details>
+<details class = "red">
   <summary>Dygtige elever</summary>
     <ul>
     <li>Meget dygtige elever og elever der allerede kan programmere</li>
@@ -40,14 +40,16 @@
 </details>
 
 
-## Planlagt pensum ( vær opmæksom dette kan udvides undervejs)
-
-- Basisstof via p5.js: variable, typesystem, forgreninger, løkker, array, intro til object samt funktioner i js
-- flowchart og pseudokode
-- OOP: Intro til objektorienteret prog (class & object) + om JSON som dataformat
-- OOP: fortsat, om arv & polymorfi samt om klassediagrammer til at repræsentere programmet
-- Om funktioner i js: mere avanceret om funktioner/metoder i js
-- Om html, css & js: den basale tech‐stak til webprogrammering
-- Algoritmer – rekursion, intro til tidskompleksitet, fx grafalgoritmer, sortering, kollision
-- Eksamensprojektet & eksamenstræning
-
+<details class="red">
+  <summary>Planlagt pensum ( kan ændres lidt )</summary>
+    <ul>
+    <li>Basisstof via p5.js: variable, typesystem, forgreninger, løkker, array, intro til object samt funktioner i js</li>
+    <li>flowchart og pseudokode</li>
+    <li>OOP: Intro til objektorienteret prog (class & object) + om JSON som dataformat</li>
+    <li>OOP: fortsat, om arv & polymorfi samt om klassediagrammer til at repræsentere programmet</li>
+    <li>Om funktioner i js: mere avanceret om funktioner/metoder i js</li>
+    <li>Om html, css & js: den basale tech‐stak til webprogrammering</li>
+    <li>Algoritmer – rekursion, intro til tidskompleksitet, fx grafalgoritmer, sortering, kollision</li>
+    <li>Eksamensprojektet & eksamenstræning</li>
+    </ul>
+</details>

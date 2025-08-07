@@ -2,7 +2,7 @@
 ## Dagens opgaver, når alle er løst har man "fri" ...
 
 
-<details>
+<details class="blue">
   <summary>Opgave 1 : I can copy I can code</summary>
   
     - kopier følgende til din browser
@@ -12,7 +12,7 @@
 </details>
 
 
-<details>
+<details class="blue">
   <summary>Opgave 2 : Datatyper og variabler</summary>
   
     - Opgave 2, "Sjov" opgave om datatyper og variabler
@@ -20,7 +20,7 @@
 </details>
 
 
-<details>
+<details class="blue">
   <summary>Opgave 3 : Logbog</summary>
 
   - Opgave 3, Send link til jeres opgaver (med kommentarer) til underviseren 

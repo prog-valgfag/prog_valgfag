@@ -19,10 +19,7 @@ h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
     padding: 10px;
-    /* samme baggrundsfarve overskrift som i tabellen */
-    /*width: 100%;*/
 
-    background-color: #c7d2eb;
 
 }
 
@@ -53,8 +50,25 @@ details, summary, ul, ol, table, td, th {
 details {
   margin-bottom: 1em;
   padding: 0.5em;
-  border: 1px solid #c7d2eb;
+ /* border: 1px solid #c7d2eb;*/
   border-radius: 8px;
+ /* background: #c7d2eb;*/
+}
+
+/* en anden farve for  classen "importent" */
+.red {
+    background-color: #f7a8a8; /* Et eksempel på en lys rød baggrund */
+
+  font-weight: bold;
+}
+
+.white {
+  color: #000000;
+  background: #ffffff;
+}
+
+.blue {
+  color: #0000ff;
   background: #c7d2eb;
 }
 

@@ -35,7 +35,7 @@ async function readMarkdownFile(filePath: string): Promise<Response> {
       <head>
         <meta charset="UTF-8">
         <title>prog valghold</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
       </head>
       <body>
         <main class="markdown-body">

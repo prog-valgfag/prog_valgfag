@@ -83,3 +83,14 @@ summary {
   background: #ffffff;
   font-size: 0.8em;
 }
+
+code, pre {
+  color: #000000;
+  background: #ffffff;
+  font-size: 1.3em;
+}
+
+p {
+ font-size: 1.3em;
+
+}

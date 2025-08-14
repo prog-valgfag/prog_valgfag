@@ -1,4 +1,4 @@
-# 3.del. : Datatyper & typekonvertering & kommafejl - d.13/8-25
+# 3.del. : Variabler & datatyper & typekonvertering & regnefejl - d.13/8-25
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -166,6 +166,12 @@ Vi skal nu lave en ny super vare, pris, vægt beregner. Men husk at bruge jeres 
 ![prisOgvaegt](/dag2/PrisOgVaegt.png)
 
 Koden i får denne gang er lidt mere anvanceret nu er der også en "for-løkke" og et "array",- prøv at se om du kan udvide og kopirere de metoder du læser i koden så du på den måde kan færdigøre programmet:
+
+Der er følgende krav til programmet:
+
+- det skal kunne håndtere kommtal og storetal fornuftigt
+- alt på interfacet skal stå på en brugerventlig og pæn måde
+- din kode skal være letlæslig og så enkel som overhovedet muligt
 
 ```javascript
 let inputVare 

@@ -69,7 +69,7 @@ details {
 }
 
 .blue {
-  color: #0000ff;
+  color: #000000;
   background: #c7d2eb;
 }
 
@@ -87,10 +87,10 @@ summary {
 code, pre {
   color: #000000;
   background: #ffffff;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 p {
- font-size: 1.3em;
+ font-size: 1em;
 
 }

@@ -3,17 +3,20 @@ import MarkdownIt from "https://esm.sh/markdown-it";
 Deno.serve({port: 8000}, async (req) => {
 
     const url = new URL(req.url);
+    
+    const safePath = sanitizePath(url.pathname);
+    if (!safePath) {
+        return await readMarkdownFile("forside.md");
+    }
 
-    //skal huske prikken i filnavnet - da den viser at det er en fil i den nuværende mappe
+    if (safePath.endsWith(".pdf")) return await readPdfFile(safePath);
 
-    if (url.pathname.endsWith(".pdf")) return await readPdfFile("." + url.pathname);
+    if (safePath.endsWith(".css")) return await readCSSfile(safePath);
 
-    if (url.pathname.endsWith(".css")) return await readCSSfile("."+url.pathname);
+    if (safePath.endsWith(".md")) return await readMarkdownFile(safePath);
 
-    if (url.pathname.endsWith(".md")) return await readMarkdownFile("."+url.pathname);
-
-    if (url.pathname.endsWith(".png") || url.pathname.endsWith(".jpg") || url.pathname.endsWith(".jpeg")) {
-        return await readImageFile("." + url.pathname);
+    if (safePath.endsWith(".png") || safePath.endsWith(".jpg") || safePath.endsWith(".jpeg")) {
+        return await readImageFile(safePath);
     }
 
     //hvis ingen specifik sti er angivet, returner hovedoversigten
@@ -21,13 +24,55 @@ Deno.serve({port: 8000}, async (req) => {
 
 });
 
+function sanitizePath(pathname: string): string | null {
+    try {
+        if (pathname === '/' || pathname === '') {
+            return null;
+        }
+        
+        let cleanPath = decodeURIComponent(pathname.startsWith('/') ? pathname.slice(1) : pathname);
+        
+        if (!cleanPath) {
+            return null;
+        }
+        
+        const segments = cleanPath.split('/').filter(segment => {
+            return segment !== '' && segment !== '.' && segment !== '..';
+        });
+        
+        if (cleanPath.includes('..') || cleanPath.includes('//') || cleanPath.startsWith('/')) {
+            return null;
+        }
+        
+        const safePath = segments.join('/');
+        
+        if (safePath.startsWith('/') || safePath.includes('..')) {
+            return null;
+        }
+        
+        const allowedExtensions = ['.md', '.css', '.png', '.jpg', '.jpeg', '.pdf'];
+        const hasAllowedExtension = allowedExtensions.some(ext => safePath.toLowerCase().endsWith(ext));
+        
+        if (!hasAllowedExtension) {
+            return null;
+        }
+        
+        return './' + safePath;
+    } catch {
+        return null;
+    }
+}
+
 
 async function readMarkdownFile(filePath: string): Promise<Response> {
 
     try {
       const markdown = await Deno.readTextFile(filePath);
       const md = new MarkdownIt({ html: true });
-      const content = md.render(markdown);
+      let content = md.render(markdown);
+      content = content.replace(/<script[^>]*>.*?<\/script>/gsi, '')
+              .replace(/on\w+="[^"]*"/gi, '')
+              .replace(/javascript:/gi, '');
   
       const html = `
       <!DOCTYPE html>

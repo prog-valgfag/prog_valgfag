@@ -15,3 +15,5 @@ Vigtigste værktøjer, frameworks og sprog:
 | Tirsdag d.19/8 | [del 5 : for og while loops](/dag3/del5.md)                              |                                          |
 |                | -                                                                        |                                          |
 | Fredag d.22/8  | [del 6 : operatorer](/dag4/del6_operatorer.md)                           |                                          |
+|                | -                                                                        |                                          |
+| Tirsdag d.2/9  | [del 7 : arrays](/dag5/del7_arrays.md)                                   |                                          |

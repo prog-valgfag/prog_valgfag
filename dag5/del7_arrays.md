@@ -9,7 +9,7 @@
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 
 
-<details class="red">
+<details class="blue">
   <summary>Vigtig viden fra sidst</summary>
 
 - hvad menes med "operander" og "operator"
@@ -25,7 +25,7 @@
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 
 
-<details class="red">
+<details class="blue">
   <summary>Bonus opgave fra sidst</summary>
 
 ```
@@ -88,6 +88,10 @@ OSV
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
+
+
+<details class="green">
+  <summary>Nyt emne : Arrays</summary>
 
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (--------------------------------------------     A R R A Y S      -----------------------------------------------------------)
@@ -167,6 +171,8 @@ Her kan man f.eks. gøre:
  let a = new Array(3).fill(0)   //samme som ovenfor
  lat a = ["Anders",3,8]         //skaber et array med tre elementer 
 </pre>
+
+
 </details>
 
 
@@ -177,19 +183,64 @@ Her kan man f.eks. gøre:
 <details class="blue">
   <summary>Objekter er arrays</summary>
 
+Den overordnede datatype for arrays i javascript er objekter (vi kommer til at snakke mere om objekter senere).
+
+Se eksemplet nedenfor på et simpelt objekt - jeg forsøger at anvende som et array:
 
 <pre class="blue">
+  
+  let a = {navn:"Anders", alder: 46}; 
+  a[1] = 1000; //
+  
+  console.log(a[1]);
+  //selv om det ligner at jeg bruger objektet som et array 
+  //oversættes 1 til string "1" og er bare en "property
+  
+  console.log(a.length); 
+  //kan ikke lade sig gøre da a er objekt men ikke et array
+</pre>
+
+
+
+
+
+Nedenfor ses et array jeg anvender som et objekt
+
+<pre class="blue">
+  
+  let a = [1,2,3];
+  
+  a["kat"] = "misser";
+  
+  console.log(a["kat"]);
+  //udskriver misser
+
+  console.log(a.length);
+  //længden er dog stadig 3
 </pre>
 
 </details>
 
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
-[//]: # (-------------------------------------------- array og loops       -----------------------------------------------------------)
+[//]: # (-------------------------------------------- array og for-loops       -----------------------------------------------------------)
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 
 <details class="blue">
-  <summary>Loops og arrays</summary>
+  <summary>for-loops og arrays</summary>
 
+  let a = [10,20,30];
+  
+  for(let i=0 ; i<a.length ; i++){
+    console.log(i + " : " + a[i]) // printer index og derefter element  
+  }
+  
+  for(let t in a){
+    console.log(t)  // printer 0 1 2 som er index
+  }
+  
+  for(let t of a){
+    console.log(t) // printer 10 20 30 som en elementer
+  }
 
 <pre class="blue">
 </pre>
@@ -203,6 +254,15 @@ Her kan man f.eks. gøre:
 
 <details class="blue">
   <summary>2d arrays </summary>
+
+  Det er vigtigt at nævne at der som sådan ikke eksisterer 2d arrays i js, men man kan lave arrays af arrays, og derved skabe det selv.
+
+<pre class="blue">
+  let a = [[11,21,31],[12,22,32],[13,23,33]];
+
+  console.log( a[1][1]) //printer 22 ud
+</pre>
+  
 
 
 <pre class="blue">
@@ -219,11 +279,54 @@ Her kan man f.eks. gøre:
 <details class="blue">
   <summary>Smarte funktioner til arrays</summary>
 
+  Der er virkelig mange array funktioner ... her et par enkelte...
+
+<pre class="blue">
+// Opret et array
+let arr = [1, 2, 3, 4];
+console.log("Start:", arr);
+
+// --- Tilføje og fjerne ---
+arr.push(5);          // [1, 2, 3, 4, 5]
+arr.pop();            // [1, 2, 3, 4]
+arr.unshift(0);       // [0, 1, 2, 3, 4]
+arr.shift();          // [1, 2, 3, 4]
+console.log("Efter push/pop/unshift/shift:", arr);
+
+// --- Søge og finde ---
+console.log("Index af 3:", arr.indexOf(3)); // 2
+console.log("Har vi 10?", arr.includes(10)); // false
+
+// --- Andre nyttige ---
+let kopi = arr.slice(1, 3);        // [2, 3] (original uændret)
+arr.splice(1, 1, 9);               // [1, 9, 3, 4] (ændrer originalen)
+let tekst = arr.join("-");         // "1-9-3-4"
+let sorteret = [3, 1, 2].sort();   // [1, 2, 3]
+
+console.log("Slice:", kopi);
+console.log("Efter splice:", arr);
+console.log("Join:", tekst);
+console.log("Sorteret:", sorteret);
+
+</pre>
+
 
 <pre class="blue">
 </pre>
 
 </details>
+
+[//]: # (-----------------------------------------------------------------------------------------------------------------------------)
+[//]: # (-----------------------------------------------------------------------------------------------------------------------------)
+[//]: # (-----------------------------------------------------------------------------------------------------------------------------)
+[//]: # (-----------------------------------------------------------------------------------------------------------------------------)
+[//]: # (-----------------------------------------------------------------------------------------------------------------------------)
+
+
+
+
+</details>
+
 
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
@@ -244,11 +347,25 @@ Her kan man f.eks. gøre:
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 
 
-<details class="red">
+<details class="blue">
   <summary>Dagens opgaver </summary>
 
+  Søjlediagrams-opgaver
+  - Lav et array, der består af de første 20 tal i 10-tabellen (kort kode)
+  - Visualiser arrayet som et søjlediagram vha. "rect"
+  - Byt om på to elementer i arrayet vha. kode
+  - Byt om på to random ellementer i arrayet vha. "random(0,20)|0"
+  - Lav ombytningen hver gang man trykker på en knap (se tidsligere opgaver)
 
-<pre class="blue">
-</pre>
+  Terningkast-simulering
+  - Lav et array med 20 tal, der repræsenterer terningkast (1–6).
+  - Visualiser med søjler (rect) højde = tal * 20.
+  - Find og marker den højeste værdi i arrayet (fx farv den rød).
+  - Udvid: kast terninger igen, når man trykker på en knap, og opdater array + diagram.  
+
+  Farvestriber
+  - Lav et array med 10 farver (fx "red", "blue", …).
+  - Tegn farvestriber på canvas vha. rect, én farve pr. array-element.
+  - Skift farverne rundt for hver frame, fx bytte første og sidste element.
 
 </details>

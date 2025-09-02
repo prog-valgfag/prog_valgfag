@@ -264,8 +264,15 @@ Nedenfor ses et array jeg anvender som et objekt
 </pre>
   
 
-
+ Oprettelse af et 2d array med 10 gange 10 0'er 
 <pre class="blue">
+ let a = []
+ for(let i=0 ; i<10 ; i++){
+  a[i] = [] 
+  for(let j=0 ; j<10 ; j++){
+    a[i][j] = 0  
+  }
+ }
 </pre>
 
 </details>
@@ -350,22 +357,43 @@ console.log("Sorteret:", sorteret);
 <details class="blue">
   <summary>Dagens opgaver </summary>
 
-  Søjlediagrams-opgaver
+  ***Lav et 2D-array og tegn et skakbræt***
+  - Opret et 8×8 array, hvor hver celle indeholder enten 0 eller 1.
+  - 0 betyder hvid firkant
+  - 1 betyder sort firkant
+  - Brug en for-løkke inde i en anden for-løkke til at tegne "skakbrættet" ud fra arrayet.
+
+  ***Søjlediagrams-opgaver***
   - Lav et array, der består af de første 20 tal i 10-tabellen (kort kode)
   - Visualiser arrayet som et søjlediagram vha. "rect"
-  - Byt om på to elementer i arrayet vha. kode
   - Byt om på to random ellementer i arrayet vha. "random(0,20)|0"
   - Lav ombytningen hver gang man trykker på en knap (se tidsligere opgaver)
 
-  Terningkast-simulering
+  ***Terningkast-simulering***
   - Lav et array med 20 tal, der repræsenterer terningkast (1–6).
   - Visualiser med søjler (rect) højde = tal * 20.
   - Find og marker den højeste værdi i arrayet (fx farv den rød).
   - Udvid: kast terninger igen, når man trykker på en knap, og opdater array + diagram.  
 
-  Farvestriber
-  - Lav et array med 10 farver (fx "red", "blue", …).
-  - Tegn farvestriber på canvas vha. rect, én farve pr. array-element.
-  - Skift farverne rundt for hver frame, fx bytte første og sidste element.
+  ***Bonusopgave 1 - 2d grid*** 
+  Prøv at undersøge følgende forskellige måder at lave et 2d array, se kode nedenfor.
+  - Prøv at indsætte et 1-tal på en vilkårlig plads i "grid" og "grid2" 
+  <pre class="blue">
+  
+  let grid    = new Array(40).fill(new Array(40).fill(0)); 
+  
+  let grid    = []
+  for(let x = 0 ; x<40 ; x++){
+    grid2[x] = new Array(40).fill(0);
+  } 
+  </pre>
+  - Vælg én metode til at lave dit grid.
+  - Tegn grid’et som et ternet område, hvor: 0 = hvid firkant og 1 = sort firkant
+  - Brug mousePressed() til at ændre en celle fra 0 til 1 ud fra musens position (mouseX, mouseY).
+  
+  ***Bonusopgave 2 - slange fra "snake"*** 
+  - Målet er at lave en "slange", som bevæger sig én firkant ad gangen, når man trykker på W, A, S, D.
+  - Selve slangen skal bestå af et array hvor hvert elment indeholder koordinatsæt til en del af slangen
+
 
 </details>

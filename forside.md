@@ -17,3 +17,4 @@ Vigtigste værktøjer, frameworks og sprog:
 | Fredag d.22/8  | [del 6 : operatorer](/dag4/del6_operatorer.md)                           |                                          |
 |                | -                                                                        |                                          |
 | Tirsdag d.2/9  | [del 7 : arrays](/dag5/del7_arrays.md)                                   |                                          |
+| Fredag d.5/9   | [del 8 : Funktoner](/)                                |                                          |

@@ -372,12 +372,11 @@ console.log("Sorteret:", sorteret);
   ***Terningkast-simulering***
   - Lav et array med 20 tal, der repræsenterer terningkast (1–6).
   - Visualiser med søjler (rect) højde = tal * 20.
-  - Find og marker den højeste værdi i arrayet (fx farv den rød).
   - Udvid: kast terninger igen, når man trykker på en knap, og opdater array + diagram.  
 
   ***Bonusopgave 1 - 2d grid*** 
-  Prøv at undersøge følgende forskellige måder at lave et 2d array, se kode nedenfor.
-  - Prøv at indsætte et 1-tal på en vilkårlig plads i "grid" og "grid2" 
+  
+  - Undersøge følgende forskellige måder at lave et 2d array, se kode nedenfor. Prøv f.eks., at indsætte et 1-tal på en vilkårlig plads i "grid" og "grid2" og tjek indholdet af arrayet
   <pre class="blue">
   
   let grid    = new Array(40).fill(new Array(40).fill(0)); 

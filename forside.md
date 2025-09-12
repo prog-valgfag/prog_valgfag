@@ -17,5 +17,13 @@ Vigtigste værktøjer, frameworks og sprog:
 | Fredag d.22/8  | [del 6 : operatorer](/dag4/del6_operatorer.md)                           |                                          |
 |                | -                                                                        |                                          |
 | Tirsdag d.2/9  | [del 7 : arrays](/dag5/del7_arrays.md)                                   |                                          |
+|                |                                                                          |                                          |
 | Fredag d.5/9   | [del 8 : funktioner](/dag6/del8_funktioner.md)                           |                                          |
+|                |                                                                          |                                          |
 | Fredag d.12/9  | [del 9 : rekursion med funktioner](/dag7/del9_rekursion.md)              |                                          |
+|                |                                                                          |                                          |
+| 26/9           | objektorienteret programmering 1 - Objekter                              |                                          |
+|                |                                                                          |                                          |
+| 30/9           | objektorienteret programmering 2 - Klasser                               |                                          |
+|                |                                                                          |                                          |
+| 3/10           | objektorienteret Programmering 3 - Nedarvning                            |                                          |

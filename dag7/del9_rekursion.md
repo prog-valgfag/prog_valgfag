@@ -57,10 +57,10 @@ se nedenstående programkode:
 
 ```
 function setup() {
-  rekursiv();
+  rekursiv(5);
 }
 
-function rekursiv() {
+function rekursiv(i) {
   if (i > 0) { 
     i = rekursiv(i - 1); 
   }

@@ -13,6 +13,50 @@
 
 - hvad er en funktion ;-) ??
 
+En funktion er en genbrugelig blok af kode, der udfører en bestemt opgave.
+
+Den kan tage input (parametre), fx tal eller tekst.
+
+Den kan give output (returnere noget).
+
+Den gør koden mere overskuelig og nem at bruge flere gange.
+
+
+- funktion scope
+
+scope betyder hvor i koden en variable er tilgængelig for funktionen. 
+
+Der findes en global scope og en lokal scope. 
+
+            function myFunction() {
+                let x = 10; // x har lokal scope
+                console.log(x); // virker fint her
+                    }
+
+                console.log(x); // FEJL! x findes ikke her
+
+
+Global variable oprettes udenfor funktionen. 
+
+            let y = 5; // global variabel
+
+                function test() {
+                 let z = 10; // lokal variabel
+                console.log(y); // virker, globale kan tilgås inde i funktion
+                console.log(z); // virker
+                    }
+
+                        console.log(y); // virker
+                        console.log(z); // FEJL! z findes kun inde i funktionen
+
+Hvorfor er scope vigtig ?
+
+Undgår at variabler overskriver hinanden.
+
+Holder koden organiseret og overskuelig.
+
+Gør det muligt at lave genbrugelige funktioner, uden at påvirke resten af koden
+
 </details>
 
 
@@ -24,7 +68,45 @@
 <details class="blue">
   <summary>Løsning på opgave fra sidst</summary>
 
-- hvad er en funktion ;-) ??
+       let circleX = 200;
+       let circleY = 200;
+       let circleSize = 100;
+
+        let circleColor;
+        let clickCount = 0;
+
+        function setup() {
+      createCanvas(400, 400);
+      circleColor = color(255, 0, 0); // start red
+  
+  
+      }
+
+    function draw() {
+    background(220);
+    ellipse(circleX, circleY, circleSize)
+    fill(circleColor);
+  
+      }
+
+
+    // parameter name is clickCount now
+      function changeCircleColor() {
+      if (clickCount % 2 == 0) {
+      return color(255, 0, 0); // red
+      } else {
+      return color(0, 0, 255); // blue
+      }
+    }
+
+    function mousePressed() {
+      let d = dist(mouseX, mouseY, 200, 200);
+      if (d < 40) {
+      clickCount = clickCount + 1;
+      circleColor = changeCircleColor(clickCount);
+    }
+   }
+
 
 </details>
 

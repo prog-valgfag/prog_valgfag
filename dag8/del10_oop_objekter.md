@@ -149,4 +149,7 @@ opgave 2.
 		Brug en for-loop i draw() til at tegne alle cirklerne.
 
 
-    
+        Bonus Opgave: 
+
+            Brug nedarvning fra en et objekt til at oprette flere cirkler.
+                evt. ændre værdierne på nøglerne til det nye objekt.

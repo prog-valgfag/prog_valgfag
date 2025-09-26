@@ -113,9 +113,9 @@ live kodning med eksempler.
 
 	- opret et tomt objekt kaldes Cirkledata. 
 
-	- tilføj i din function setup en key X som har en værdi af 200. 
+	- tilføj  en key X som har en værdi af 200. 
 	
-	- tilføj i din function setup en key med en string værdi. 
+	- tilføj  en key med en string værdi. 
 
 	- Slet X ved at skrive kode i din function setup.
 	

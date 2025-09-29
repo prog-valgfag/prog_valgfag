@@ -142,7 +142,7 @@ function setup() {
   rekursiv(5);
 }
 
-function rekursiv() {
+function rekursiv(i) {
   if (i > 0) { 
     i = rekursiv(i - 1); 
   }

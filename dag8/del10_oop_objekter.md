@@ -46,7 +46,7 @@ et objekt oprettes ved at bruge krølle parenteser.
 Et objekt indholder en nøgle og en værdi. Nøglen er navnet på den tilhørende værdi. Her arbejdes med en combination af key:value.
 
 
-For at få adgang til en ejendom kan vi bruge:
+For at få adgang til en parameter kan vi bruge:
 
 Punktnotationen: 
 

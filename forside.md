@@ -26,7 +26,7 @@ Vigtigste værktøjer, frameworks og sprog:
 |                |                                                                          |                                          |
 | 30/9           | [objektorienteret programmering 2 - Klasser](/dag9/oop-klasser.md)       |                                          |
 |                |                                                                          |                                          |
-| 3/10           | objektorienteret Programmering 3 - Nedarvning + Omfattende Genopfriskning |             |
+| 3/10           | [objektorienteret Programmering 3 - Nedarvning + Omfattende Genopfriskning](/dag10/Nedarvning-oop.md) |             |
 |                |                                                                          |                                          |
 | 10/10          | objektorienteret Programmering 4 - Referencer + Copy                     |              |
 |                |                                                                          |                                          |

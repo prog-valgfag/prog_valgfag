@@ -81,6 +81,46 @@ Program for idag
 
 </details>    
 
+
+
+<details class = "green">
+
+<summary>Dagens opgave</summary>
+
+
+I skal lave et program, hvor man kan klone en cirkel ved museklik, og  clone skal være en selvstændig kopi af originalen.
+
+
+Opret en original cirkel med egenskaber:
+
+x og y (position på canvas)
+
+r (radius)
+
+farve (fx 'red')
+
+Tegn den originale cirkel i draw() med ellipse() og fill().
+
+opret en Array list for at tegne clone, (tilføj flere clones hvis man vil.)
+
+Clonen skal tilføjes arrayet , så den bliver tegnet sammen med originalen i draw().
+
+Clone cirklen skal tegnes når der klikkes på musen i cirklen.
+
+Hvis musen klikkes inden i cirklen, skal der laves en copy af objektet med Object.assign.
+
+Clonen skal flyttes lidt til højre (x += 120) og få en ny farve (fx 'green').
+
+
+Ekstra  (bonus)
+
+Kig på https://javascript.info/object-copy og læs omkring nested cloning, prøv at bruge nested cloning på din kode. 
+
+
+
+
+
+</details>
     Litteratur: 
     
     https://javascript.info/object-copy

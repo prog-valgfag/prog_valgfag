@@ -22,12 +22,12 @@ Vigtigste værktøjer, frameworks og sprog:
 |                |                                                                          |                                          |
 | Fredag d.12/9  | [del 9 : rekursion med funktioner](/dag7/del9_rekursion.md)              |                                          |
 |                |                                                                          |                                          |
-| 26/9           | [objektorienteret programmering 1 - Objekter](/dag8/del10_oop_objekter.md)|                                          |
+| 26/9           | [objektorienteret programmering 1 - Objekter](/dag8/del10_oop_objekter.md)|                                         |
 |                |                                                                          |                                          |
 | 30/9           | [objektorienteret programmering 2 - Klasser](/dag9/oop-klasser.md)       |                                          |
 |                |                                                                          |                                          |
 | 3/10           | [objektorienteret Programmering 3 - Nedarvning + Omfattende Genopfriskning](/dag10/Nedarvning-oop.md) |             |
 |                |                                                                          |                                          |
-| 10/10          | [objektorienteret Programmering 4 - Referencer + Copy](/dag11/obj-copy.md)                     |              |
+| 10/10          | [objektorienteret Programmering 4 - Referencer + Copy](/dag11/obj-copy.md) |                                        |
 |                |                                                                          |                                          |
-| 24/10          | Nyt                                                               |              |
+| 24/10          | [introduktion til algoritmer - simpel sortering](/dag12/algoritmer.md)   |                                          |

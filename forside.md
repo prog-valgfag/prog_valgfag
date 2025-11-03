@@ -31,3 +31,5 @@ Vigtigste værktøjer, frameworks og sprog:
 | 10/10          | [objektorienteret Programmering 4 - Referencer + Copy](/dag11/obj-copy.md) |                                        |
 |                |                                                                          |                                          |
 | 24/10          | [introduktion til algoritmer - simpel sortering](/dag12/algoritmer.md)   |                                          |
+|                |                                                                          |                                          |
+| 3/11           | [introduktion til algoritmer - søgning](/dag13/algoritmer2.md)            |                                          |

@@ -174,3 +174,95 @@ Det udføres ved at ændre ved de forskellige Nodes.
 
 </details>
 
+<details class = "blue">
+
+<summary>Løsning til opgaven</summary>
+
+                    <!DOCTYPE html>
+                <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>sidetitel</title>
+            <style>
+                #title {
+            color: blue;
+            }
+
+            .divclass {
+            background-color: lightgray;
+            padding: 10px;
+            }
+
+                button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+             } 
+            </style>
+            </head>
+        <body>
+        <h1 id = "title">Vellommen til min side</h1>
+        <div class="divclass">
+        <p>Dette er en paragraf</p>
+        <p>Dette er en paragraf</p>
+        <p>Dette er en paragraf</p>
+        <p>Dette er en paragraf</p>
+        <p>Dette er en paragraf</p>
+
+        </div>
+        <button id="button1">Click me</button>
+        <button id = "addbutton">Add paragraph</button>
+        <button id = "addtextbutton">Add text</button>
+
+        <div id = "input div">
+            <input type="text" id = "input1" placeholder="Skriv noget her">
+        </div>
+
+
+        <script>
+
+
+        function handleClick() {
+            const title = document.getElementById('title');
+            title.textContent = 'welcome';
+            button.textContent = 'Clicked';
+            }
+
+        const button = document.getElementById('button1');
+        button.addEventListener('click', handleClick);
+
+
+
+        function addParagraph() {
+            const div = document.getElementsByClassName('divclass');  // const div = document.queryselector('.divclass')
+            const newParagraph = document.createElement('p');
+            newParagraph.textContent = 'Dette er en ny paragraf';
+            div[0].appendChild(newParagraph);
+
+            }
+
+        const addbutton = document.getElementById('addbutton');
+        addbutton.addEventListener('click', addParagraph);
+
+        function tilføjtext () {
+            const div = document.getElementsByClassName('divclass');
+            const newtext = document.createElement('p');
+            const input = document.getElementById('input1').value;
+            newtext.textContent = input;
+            div[0].appendChild(newtext);
+            document.getElementById('input1').value = '';
+        }
+
+
+
+
+        const addtext = document.getElementById('addtextbutton');
+        addtextbutton.addEventListener('click', tilføjtext); 
+
+
+        </script>   
+
+</details>

@@ -34,3 +34,4 @@ Vigtigste værktøjer, frameworks og sprog:
 |                |                                                                          |                                          |
 | 3/11           | [introduktion til algoritmer - søgning](/dag13/algoritmer2.md)            |                                          |
 | 5/11           | [introduktion til web programmering](/dag14/webpro-dom.md)            |                                          |
+| 7/11           | [introduktion til web programmering del2](/dag15/webprodag2.md)            |                                          |

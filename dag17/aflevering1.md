@@ -5,6 +5,9 @@ Dette mini projekt fungerer som en lille generalprøve på eksamensprojektet. I 
 Varighed:
 6 moduler
 
+[Eksempel : på hvordan man kan gemme avanceret data i localstorage](/dag17/eksempel.md)
+
+
 ### Krav til opgaven:
 - Lav et website hvor kan indtaste infomation om noget der skal arkiveres (f.eks. bøger, film, spil, opskrifter eller lignende)
 - Sitet skal kunne gemme informationerne i local storage i browseren ( eller i en database hvis du er ambitiøs)
@@ -17,7 +20,7 @@ Varighed:
 - Sammen med et dokumnent, der indeholder : 
     - Funktionsbeskrivelse (skærmlayout, indtastningsmuligheder, funktionalitet – alt efter hvad det er
 for et program)
-    Dokumentation af selve programmet (overordnet beskrivelse af programmet, detaljeret dokumen-
+    - Dokumentation af selve programmet (overordnet beskrivelse af programmet, detaljeret dokumen-
 tation af dele af programmet (flowchart, pseudokode), variabler, objekter, events, igen meget af-
 hængigt af hvad det er for et program)
     - Test af programmet

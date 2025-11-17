@@ -1,5 +1,8 @@
 ## Afleveringsopgave: Arkiverings- og sorteringswebsite
 
+Varighed:
+6 moduler
+
 Krav til opgaven:
 - Lav et website hvor kan indtaste infomation om noget der skal arkiveres (f.eks. bøger, film, spil, opskrifter eller lignende)
 - Sitet skal kunne gemme informationerne i local storage i browseren ( eller i en database hvis du er ambitiøs)
@@ -9,6 +12,14 @@ Krav til opgaven:
 
 Afleveringsform:
 - Gem jeres kode i en zip-fil og upload den til afleveringen på Lectio
+- Et dokumnent der indeholder : 
+    - Funktionsbeskrivelse (skærmlayout, indtastningsmuligheder, funktionalitet – alt efter hvad det er
+for et program)
+    Dokumentation af selve programmet (overordnet beskrivelse af programmet, detaljeret dokumen-
+tation af dele af programmet (flowchart, pseudokode), variabler, objekter, events, igen meget af-
+hængigt af hvad det er for et program)
+    - Test af programmet
+    - Konklusion
 
 Vurderingskriterier:
 - Funktionalitet: Opfylder sitet alle kravene?

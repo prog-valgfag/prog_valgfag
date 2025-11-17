@@ -1,5 +1,7 @@
 ## Afleveringsopgave: Arkiverings- og sorteringswebsite
 
+Dette mini projekt fungerer som en lille generalprøve på eksamensprojektet. I skal lave et website der kan arkivere informationer om ting (f.eks. bøger, film, spil, opskrifter eller lignende) og som kan sortere disse informationer efter forskellige kriterier.
+
 Varighed:
 6 moduler
 
@@ -20,11 +22,6 @@ tation af dele af programmet (flowchart, pseudokode), variabler, objekter, event
 hængigt af hvad det er for et program)
     - Test af programmet
     - Konklusion
-
-Vurderingskriterier:
-- Funktionalitet: Opfylder sitet alle kravene?
-- Kodekvalitet: Er koden velstruktureret og let at forstå?
-- Brugeroplevelse: Er sitet nemt at bruge og ser det godt ud?
 
 Gruppe eller individuel opgave:
 - Opgaven kan laves individuelt eller i grupper på op til 2 personer.

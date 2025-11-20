@@ -37,3 +37,4 @@ Vigtigste værktøjer, frameworks og sprog:
 | 7/11           | [introduktion til web programmering del2](/dag15/webprodag2.md)          |                                          |
 |                |                                                                          |                                          |
 | 18/11 - 27/11  | [Afleveringsopgave : arkiverings/sorterings website](/dag17/aflevering1.md) |                                   |
+| 21/11          | [Modelering : Flowchart Diagram](/dag18/flowchart.md)                    |                                          |

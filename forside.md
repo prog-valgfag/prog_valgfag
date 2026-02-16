@@ -25,8 +25,16 @@ Vigtigste værktøjer, frameworks og sprog:
 | 7/11  | [web 2](/dag15/webprodag2.md)                                              |                                          |
 |       |                                                                            |                                          |
 | 18/11 - 27/11  | [Afleveringsopgave : arkiverings/sorterings website](/dag17/aflevering1.md) |                                |
-| 21/11          | [Modelering : Flowchart Diagram](/dag18/flowchart.md)                    |                                          |
+| 21/11          | [Modelering : Flowchart Diagram](/dag18/flowchart.md)                    |                                   |
 |       |                                                                            |                                          |
-| 6/12  | [Supabase - relationel database og webservice](/dag19/del19_supabase.md)   |                                          |
+| 17/2  | ***[opstart - eksamensprojekt](/del20/del20_eksamensprojektet.md)***       |                                          |
+|       |                                                                            |                                          |
+| 5/5   | ***aflevering - eksamensprojekt***                                         |                                          |
+
+
+----------------------
+
+### Suplerende stof : dette kan være brugbart i et eksamnensprojekt 
+[Supabase - relationel database og webservice](/dag19/del19_1_supabase.md)  
 
 

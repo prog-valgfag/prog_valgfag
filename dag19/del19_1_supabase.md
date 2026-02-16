@@ -1,6 +1,6 @@
 # Suplerende stof : Supabase,- relationel database og webservice
 
-## introduktion til supabase
+## introduktion til supabase - del 19.1
 
 supabase er en open source backend som en service platform der gør det nemt at lave databaser til web og mobil apps.
 
@@ -24,19 +24,5 @@ Gode regler for design af relationelle databaser:
 - Primærnøgler : Hver tabel bør have en primærnøgle der entydigt identificerer hver række.
 - Fremmednøgler : Brug fremmednøgler til at etablere relationer mellem tabeller.
 
-## Intro til Supabase
-Supabase er en open-source backend-as-a-service platform der tilbyder en række værktøjer
-
-
-## Opgave : Lav en dyrehandel med supabase som database.
-
-- tabeller : dyr, arter, kunder, køb
-- relationer mellem tabellerne
-
-- man skal kunn tilføje
-- køb 
-- kunder
-- dyr
-- arter
-
+## [HER : et eksempel på p5js kode der forbinder til supabase og henter data fra en tabel kaldet "dyr":](/dag19/del19_2_eksempel.md)
 

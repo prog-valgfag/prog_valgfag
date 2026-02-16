@@ -8,6 +8,7 @@
 - I skal aflevere hver jeres synopsis uanset om I arbejder i en gruppe
 - Programmet I laver skal indholde de ting vi har arbejdet med i undervisningen
 - Jeg skal godkende alle projekter inden I begynder
+- Det er ikke tilladt at anvende AI som chatgpt eller copilot til at kode-generere jeres projekt. Husk I skal kunne redegøre for alt kode I har skrevet til en eventuel eksamen.
 
 ## Godkendelse af projekter:
 

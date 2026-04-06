@@ -29,6 +29,8 @@ Vigtigste værktøjer, frameworks og sprog:
 |       |                                                                            |                                          |
 | 17/2  | ***[opstart - eksamensprojekt](/del20/del20_eksamensprojektet.md)***       |                                          |
 |       |                                                                            |                                          |
+| 7/3   | [Test af programmet](/testAfProgram/testProgram.md)                           |                                          |
+|       |                                                                            |                                          |
 | 5/5   | ***aflevering - eksamensprojekt***                                         |                                          |
 
 

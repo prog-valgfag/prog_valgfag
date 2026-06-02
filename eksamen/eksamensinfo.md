@@ -25,6 +25,7 @@ Vi tager selvfølgelig udgangspunkt i dit produkt, ting du har skrevet i rapport
 Og vær forberedt på vi kan finde på at spørge direkte til din kode! Så den skal man selvfølgelig have styr på.
 
 Når hvis vi ikke lige kan finde på andet kan vi finder på at spørge til emner fra pensum, disse emner står alle på hjemmesiden.
+Indenfor algoritmer kan generel forståelse for sortering og søgning kan her være en fordel. Desuden skal man forstå hvad en algoritme er og hvad der menes med en algoritmes køretid.
 
 ### Karaktergivning
 

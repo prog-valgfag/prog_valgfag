@@ -12,7 +12,7 @@ Du skal præsentere dit projekt i ca. halvdelen af tiden, dvs. omtrent 12 minutt
 
 Det er en god ide at starte med at vise produktet. Det kan være en demo, en video, eller bare en gennemgang af hvad det er du har lavet. Det er vigtigt at vi forstår hvad du har lavet, og hvordan det virker, så det er en god ide at starte med det.
 
-Du bør også lige undersøge om produktet kan køre på andre end din computer. Du kan måske på denne måde komme eventuelle spørgsmål ifm. dette i forkøbet.
+I bør også lige undersøge om produktet kan køre på andet end jeres computer. I kan måske på denne måde komme eventuelle spørgsmål ifm. dette i forkøbet.
 
 Vis derefter din powerpoint - Det kan ikke undgåes, at der er meget af din rapport der går igen her. Men prøv at fokuser på de smarteste detaljer af kodningen - vis evt. nogle detaljer du ikke har i rapporten.
 Du bør i din præsentation komme ind på:
@@ -24,8 +24,8 @@ Du bør i din præsentation komme ind på:
 Vi tager selvfølgelig udgangspunkt i dit produkt, ting du har skrevet i rapporten eller sagt i din præsentation.
 Og vær forberedt på vi kan finde på at spørge direkte til din kode! Så den skal man selvfølgelig have styr på.
 
-Når hvis vi ikke lige kan finde på andet kan vi finder på at spørge til emner fra pensum, disse emner står alle på hjemmesiden.
- Indenfor algoritmer kan generel forståelse for sortering og søgning være en fordel. Desuden skal man forstå hvad en algoritme er og hvad der menes med en algoritmes køretid.
+Hvis viikke lige kan finde på andet kan vi finder på at spørge til emner fra pensum, disse emner står alle på hjemmesiden.
+Indenfor algoritmer kan generel forståelse for sortering og søgning være en fordel. Desuden skal man forstå hvad en algoritme er og hvad der menes med en algoritmes køretid.
 
 ### Karaktergivning
 

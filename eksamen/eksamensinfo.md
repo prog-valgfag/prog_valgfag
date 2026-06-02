@@ -26,4 +26,4 @@ Når hvis vi ikke lige kan finde på andet kan vi finder på at spørge til emne
 
 ### Karaktergivning
 
-Derefter giver vi en karakter, som er en helhedsvurdering af rapport, eksamensprojekt, præsentation og samtale.
+Derefter giver vi en karakter, som er en helhedsvurdering af eksamensprojekt, præsentation og samtale.

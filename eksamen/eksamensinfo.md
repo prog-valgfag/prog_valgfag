@@ -12,6 +12,8 @@ Du skal præsentere dit projekt i ca. halvdelen af tiden, dvs. omtrent 12 minutt
 
 Det er en god ide at starte med at vise produktet. Det kan være en demo, en video, eller bare en gennemgang af hvad det er du har lavet. Det er vigtigt at vi forstår hvad du har lavet, og hvordan det virker, så det er en god ide at starte med det.
 
+Du bør også lige undersøge om produktet kan køre på andre end din computer. Du kan måske på denne måde komme eventuelle spørgsmål ifm. dette i forkøbet.
+
 Vis derefter din powerpoint - Det kan ikke undgåes, at der er meget af din rapport der går igen her. Men prøv at fokuser på de smarteste detaljer af kodningen - vis evt. nogle detaljer du ikke har i rapporten.
 Du bør i din præsentation komme ind på:
 

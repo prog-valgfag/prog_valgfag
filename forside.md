@@ -9,7 +9,7 @@ Vigtigste værktøjer, frameworks og sprog:
 
 | Dato          | Emne                                                                                                                                                      | Opgaver                                 |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 7/8           | basic 1 : introduktion til faget                                            | Lav konto & Gem program i p5js editoren |
+| 7/8           | [basic 1 : introduktion til faget](/dag1/del1.md) / [del 2 : opgaver i variabler og datatyper](/dag1/del2.md)                                            | Lav konto & Gem program i p5js editoren |
 | -             | basic 3 : variabler, datatyper, typekonvertering og regnefejl |                                         |
 | -             | basic 5 : for og while loops                                                                                                             |                                         |
 | -             | basic 6 : operatorer                                                                                                          |                                         |

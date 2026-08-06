@@ -43,6 +43,8 @@
     <li>Om funktioner i js: mere avanceret om funktioner/metoder i js</li>
     <li>Om html, css & js: den basale tech‐stak til webprogrammering</li>
     <li>Algoritmer – rekursion, intro til tidskompleksitet, fx grafalgoritmer, sortering, kollision</li>
+    <li>Om webprogrammering: intro til webprogrammering med html, css og js</li>
+    <li>Webprogrammering: intro til webframeworket Deno, som er et alternativ til Node.js</li>
     <li>Eksamensprojektet & eksamenstræning</li>
     </ul>
 </details>

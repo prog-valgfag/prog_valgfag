@@ -1,4 +1,4 @@
-<h1>1.del. : Introduktion til faget - d.8/8-25</h1>
+<h1>1.del. : Introduktion til faget - d.7/8-26</h1>
 
 <details class = "red">
   <summary>Undervisere</summary>

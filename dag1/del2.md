@@ -1,6 +1,6 @@
-# 2.del. : opgaver i variabler og datatyper - d.8/8-25
-## Dagens opgaver, når alle er løst har man "fri" ...
+# 2.del. : opgaver i variabler og datatyper - d.7/8-26
 
+## Dagens opgaver, når alle er løst har man "fri" ...
 
 <details class="blue">
   <summary>Opgave 1 : I can copy I can code</summary>
@@ -22,6 +22,7 @@
                 text(50+30,10,48);
                 console.log("hejsa længere nede.. mange gange")
             }
+
  </pre>
 
 <ol>
@@ -36,7 +37,6 @@
 </ol>
 
 </details>
-
 
 <details class="blue">
   <summary>Opgave 2 : Datatyper og variabler</summary>
@@ -68,7 +68,6 @@
                 function draw() {
                 // draw-funktionen er tom i dette eksempel
                 }
- 
 
  </pre>
 
@@ -83,7 +82,6 @@
   <li>Prøv at ændre variablen <code>pi</code> til at være en tekststreng ved at skrive <code>let pi = "3.14";</code>. Hvad sker der i programmet, og hvilken forskel ser du i konsollen? Hvorfor tror du, det sker?</li>
 </ol>
 </details>
-
 
 <details class="blue">
   <summary>Opgave 3 : Lav en regnskabsberegner</summary>
@@ -100,7 +98,6 @@ Input og registrering: Du kan skrive navnet på en vare i det øverste inputfelt
 <li>Posteringer: Navnet på varen og prisen tilføjes som en ny linje under overskriften "Posteringer". Hver gang du registrerer et nyt køb, vil den nye postering blive vist under den forrige.</li>
 <li>På denne måde kan du løbende holde øje med dine udgifter og se en historik over dine køb direkte på skærmen.</li>
 </ol>
-
 
 <p> brug evt. følgende kode </p>
    <pre class ="white2">
@@ -119,7 +116,7 @@ Input og registrering: Du kan skrive navnet på en vare i det øverste inputfelt
 
             function draw() {
                 background(220); // Brug background() til at rydde skærmen
-                
+
                 // Tegn den samlede udgift
                 textSize(24);
                 text('Total udgift: ' + 0 + ' kr.', 20, 30);
@@ -136,13 +133,12 @@ Input og registrering: Du kan skrive navnet på en vare i det øverste inputfelt
                     let vare = vareInput.value();
 
                     posteringerTekst = posteringerTekst + vare + "\n";
-                    
+
                     // Rens input-felterne
                     vareInput.value('');
-                    
+
                 }
             }
- 
 
  </pre>
 </details>

@@ -1,17 +1,12 @@
 <h1>1.del. : Introduktion til faget - d.8/8-25</h1>
 
-
 <details class = "red">
   <summary>Undervisere</summary>
 
-<h5>Anders Juul Refslund Petersen, eksamens- og undervisnings-ansvarlig</h5>
+<h5>Anders Juul Refslund Petersen</h5>
 
 ![ajrp](img_ajrp.jpg)
 
-<h5>Mohammed Saleh, pædagogikums-kandidat og gæste-underviser</h5>
-
-![msa](img_msa.jpg)
- 
 </details>
 
 <details class = "red">
@@ -23,7 +18,6 @@
         <li><b>Fagord:</b>,- det er vigtigt at i anvender rigtige fagtermer</li>
         <li><b>Diagrammer:</b>,- ord er ikke altid nok, i skal også lære at illusterer og formidle jeres programmer igennem forskellige diagram-typer</li> 
         <li><b>Karaktergivning:</b>,- gives hovedsagligt på baggrund af test og afleveringer</li>
-        <li><b>Eksperimentel undrevisning:</b>,- der kan forkomme forskellig varierende undrervisningsformer som Mohammed vil afprøve på jer ;-) </li>
     </ul> 
  
 </details>
@@ -38,7 +32,6 @@
     <li>Og hjælpe meget gerne de andre når du er færdig?</li>
     </ul>
 </details>
-
 
 <details class="red">
   <summary>Planlagt pensum ( kan ændres lidt )</summary>

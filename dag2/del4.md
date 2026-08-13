@@ -1,5 +1,5 @@
 
-# 4.del. : Opgave - vareberegner med både akkumuleret pris og vægt !!! - d.13/8-25
+# 4.del. : Opgave - vareberegner med både akkumuleret pris og vægt !!! - d.14/8-25
 
 -------------------------------------------------------------------
 -------------------------------------------------------------------
@@ -12,7 +12,7 @@ Koden i får denne gang er lidt mere anvanceret nu er der også en "for-løkke" 
 
 Der er følgende krav til programmet:
 
-- det skal kunne håndtere kommtal og storetal fornuftigt
+- det skal kunne håndtere kommtal og storetal fornuftigt.</br> kig under data:utility functions her [https://p5js.org/reference/#Data](https://p5js.org/reference/#Data) 
 - alt på interfacet skal stå på en brugerventlig og pæn måde
 - din kode skal være letlæslig og så enkel som overhovedet muligt
 

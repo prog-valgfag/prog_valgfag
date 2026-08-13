@@ -1,4 +1,4 @@
-# 3.del. : Variabler & datatyper & typekonvertering & regnefejl - d.13/8-25
+# 3.del. : Variabler & datatyper & typekonvertering & regnefejl - d.14/8-25
 
 
 
@@ -10,6 +10,11 @@
 - hvilke hedder datatyperne, der indeholder tekst, tal eller sandt/falskt
 - hvad er "setup" 
 - hvad er "draw"
+
+
+Lidt mere om datatyper ; se "Data types"...</br>
+MDN er den mest brugte js-reference på nettet</br>
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Language_overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Language_overview)
 
 </details>
 
@@ -29,7 +34,7 @@ senere
 - let a = 1
 - a = 3
 
-Og væropmærksom på at = i programmering ikke er en ligevægt som i matematik, men tildeler værdien af det der står på højresiden til det der står på venstre
+Og vær opmærksom på at = i programmering ikke er en ligevægt som i matematik, men tildeler værdien af det der står på højresiden til det der står på venstre
 
 - a = a + 1 
 
@@ -100,7 +105,7 @@ Og væropmærksom på at = i programmering ikke er en ligevægt som i matematik,
 <details class="blue">
   <summary>4 : Om typekonvertering</summary>
 
-Forskellige opgaver: js er det man kalder et "typesvagt" sprog , og det betyder at sproget selv "gætter" på hvilken type du ønsker og automatisk "konverterer" typer så de passer sammen. Det er dog ikke altid lige intutivt  hvad der sker se diss
+Forskellige opgaver: js er det man kalder et "typesvagt" sprog , og det betyder at sproget selv "gætter" på hvilken type du ønsker og automatisk "konverterer" typer så de passer sammen. Det er dog ikke altid lige intutivt  hvad der sker se disse eksempler
 
 ### Opgave 3.1 : Implicit typekonvertering
 
@@ -187,7 +192,7 @@ Eksmpel hvordan javascript gemmer tallet 13.25:
     - Normaliseret: 1.10101 × 2^3
     - Gemmes som:
         - Fortegn: 0 (positiv)
-        - Eksponent: 3
+        - Eksponent: 3 + bias 1023  = 11 + 1111111111 = 10000000010
         - Mantisse: 10101... (udfyldt med nuller op til 52 bit)
 
 Dvs. den endelige form af 13.25 er 
@@ -200,22 +205,28 @@ Dvs. den endelige form af 13.25 er
 
 Javascripts måde at håndtere tal på kan også give os fejl ved for store tal...
 
+Og faktisk og i nogle tilfælde små tal...
+
 Tjek følgende programkode ud og giv et bud på hvornår og hvorfor js fejler:
 
 <pre>
 function setup() {
   
-  console.log("Meget store tal :-");
+  console.log("Meget store tal ");
 
   console.log(pow(2,52)-1)
   console.log(pow(2,52))
   console.log(pow(2,52)+1)
   
-  console.log("Endnu større tal ;-)")
+  console.log("Eller lidt større tal")
   
   console.log(pow(2,53)-1)
   console.log(pow(2,53))
   console.log(pow(2,53)+1)
+
+  console.log("Eller små tal")
+
+  console.log(0.1 + 0.2)
 }
 </pre>
 

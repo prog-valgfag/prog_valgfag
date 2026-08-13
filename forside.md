@@ -7,11 +7,15 @@ Vigtigste værktøjer, frameworks og sprog:
 - visual studio code
 - frameworket deno
 
-| Dato | Emne                                                                                                          | Opgaver                                 |
+Materiale :
+- [https://p5js.org/reference/](https://p5js.org/reference/)
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Language_overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Language_overview)
+
+| Dato | Emne                                                                                                          | Opgaver / Lektier                       |
 | ---- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 7/8  | [basic 1 : introduktion til faget](/dag1/del1.md) / [del 2 : opgaver i variabler og datatyper](/dag1/del2.md) | Lav konto & Gem program i p5js editoren |
-| -    | basic 3 : variabler, datatyper, typekonvertering og regnefejl                                                 |                                         |
-| -    | basic 5 : for og while loops                                                                                  |                                         |
+| 7/8  | [basic 1 : introduktion til faget](/dag1/del1.md) / [2 : opgaver i variabler og datatyper](/dag1/del2.md)     | lav konto & gem program i p5js editoren |
+| 14/8 | [basic 3 : variabler, datatyper, typekonvertering og regnefejl](/dag2/del3.md) / [4 : vare beregner med både akkumuleret pris og vægt](/dag2/del4.md) | |
+| -    | basic 5 : for og while loops                                                   | [lektier : læs om for og while](https://p5js.org/reference/#Foundation)|
 | -    | basic 6 : operatorer                                                                                          |                                         |
 | -    | basic 7 : arrays                                                                                              |                                         |
 | -    | basic 8 : funktioner                                                                                          |                                         |

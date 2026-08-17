@@ -54,13 +54,36 @@ Derfor er  den endelige form af 13.25:
 <details class="blue">
   <summary>For og while loops</summary>
 
-Denne artikel illustrerer meget godt hvordan for-loopet virker.
-[https://www.geeksforgeeks.org/dsa/for-loop-in-programming/](https://www.geeksforgeeks.org/dsa/for-loop-in-programming/)
+------------
 
-ellers er der også referencen for p5js:
+## While-loop
+ 
+[https://p5js.org/reference/p5/while/](https://p5js.org/reference/p5/while/)
 
-- [https://p5js.org/reference/p5/while/](https://p5js.org/reference/p5/while/)
-- [https://p5js.org/reference/p5/for/](https://p5js.org/reference/p5/for/)
+<pre>
+let a = 0;
+while( a < 10){
+ console.log(a);
+ a++;
+}
+</pre>
+
+![](/dag3/while_loop.png)
+
+------------
+
+## For-loop
+
+[https://p5js.org/reference/p5/for/](https://p5js.org/reference/p5/for/)
+
+<pre>
+for(let a=0; a<10 ;a++){
+  console.log(a);
+}
+</pre>
+
+![](/dag3/for-loop.png)
+
 
 
 </details>

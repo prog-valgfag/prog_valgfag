@@ -15,7 +15,7 @@ Materiale :
 | ---- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | 7/8  | [basic 1 : introduktion til faget](/dag1/del1.md) / [2 : opgaver i variabler og datatyper](/dag1/del2.md)     | lav konto & gem program i p5js editoren |
 | 14/8 | [basic 3 : variabler, datatyper, typekonvertering og regnefejl](/dag2/del3.md) / [4 : vare beregner med både akkumuleret pris og vægt](/dag2/del4.md) | |
-| -    | basic 5 : for og while loops                                                   | [lektier : læs om for og while](https://p5js.org/reference/#Foundation)|
+| 18/8 | [basic 5 : for og while loops](/dag3/del5.md)                                                   | [lektier : læs om for og while](https://p5js.org/reference/#Foundation)|
 | -    | basic 6 : operatorer                                                                                          |                                         |
 | -    | basic 7 : arrays                                                                                              |                                         |
 | -    | basic 8 : funktioner                                                                                          |                                         |

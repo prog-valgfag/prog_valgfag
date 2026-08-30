@@ -1,5 +1,5 @@
 
-# 4.del. : Opgave - vareberegner med både akkumuleret pris og vægt !!! - d.14/8-25
+# 4.del. : Opgave - vareberegner med både akkumuleret pris og vægt !!! - d.14/8-26
 
 -------------------------------------------------------------------
 -------------------------------------------------------------------

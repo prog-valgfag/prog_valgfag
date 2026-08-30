@@ -1,4 +1,9 @@
-# Del 5 : Operatorer - d.22/8-25
+# Del 5 : Operatorer - d.1/9-26
+
+
+
+
+
 
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (--------------------------------------------VIGTIG VIDEN FRA SIDST-----------------------------------------------------------)
@@ -13,6 +18,44 @@
 
 </details>
 
+
+<details class="blue">
+  <summary>Opgave besvarelser fra sidst</summary>
+ 
+Har kun taget links...
+
+ [https://editor.p5js.org/asteenbeck/sketches/QVt7rOfVm](https://editor.p5js.org/asteenbeck/sketches/QVt7rOfVm)
+
+ 3d farve gitter : [https://editor.p5js.org/hougaardalexander/full/zFaTWgM6o](https://editor.p5js.org/hougaardalexander/full/zFaTWgM6o)
+
+ [https://editor.p5js.org/chrrje/sketches/0CtUc8SHf](https://editor.p5js.org/chrrje/sketches/0CtUc8SHf)
+
+ [https://editor.p5js.org/juliuswr/sketches/eBGnOVGIo](https://editor.p5js.org/juliuswr/sketches/eBGnOVGIo)
+  
+
+  regnbue: [https://editor.p5js.org/rose-phase/sketches/REl6MnZry](https://editor.p5js.org/rose-phase/sketches/REl6MnZry)
+
+  [https://editor.p5js.org/sebastianhb-ancient/full/yqsjZPC-B
+   ](https://editor.p5js.org/sebastianhb-ancient/full/yqsjZPC-B
+    )
+
+[https://editor.p5js.org/67demon41/sketches/7Lyr_q-nk](https://editor.p5js.org/67demon41/sketches/7Lyr_q-nk)
+
+[https://editor.p5js.org/67demon41/sketches/ttqv0GZsE](https://editor.p5js.org/67demon41/sketches/ttqv0GZsE)
+
+[https://editor.p5js.org/67demon41/sketches/dBdZ-AHnH](https://editor.p5js.org/67demon41/sketches/dBdZ-AHnH)
+
+[https://editor.p5js.org/alwi15/sketches/6ppUrQAW3](https://editor.p5js.org/alwi15/sketches/6ppUrQAW3)
+
+farvede firkanter: [https://editor.p5js.org/hannibal_rorbol/sketches/S0sQ_0Xn-](https://editor.p5js.org/hannibal_rorbol/sketches/S0sQ_0Xn-)
+
+roterende 3d firkant : [https://editor.p5js.org/Mikkel09/sketches/zsjgHd8pw](https://editor.p5js.org/Mikkel09/sketches/zsjgHd8pw)
+
+[https://editor.p5js.org/robinkummel7/sketches/dj8C4Yp4B](https://editor.p5js.org/robinkummel7/sketches/dj8C4Yp4B)
+
+[https://editor.p5js.org/thororts/sketches/AHzMARzs4](https://editor.p5js.org/thororts/sketches/AHzMARzs4)
+
+</details>
 
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (--------------------------------------------------OPGAVE FRA SIDST-----------------------------------------------------------)
@@ -218,16 +261,16 @@ if(hojde > 200){
 <details class="green">
   <summary>Bonus opgave - "gå-hjem-opgave"</summary>
 
-Betragt følgend kode der viser en "sjov egenskab" ved hhv. heltalsdivisionsoperatoren "/" og rest eller modulus operatoren "%"
+Betragt følgend kode der viser en "sjov egenskab" ved modulus operatoren "%" og "heltalsdivision"
 
 [https://editor.p5js.org/ajrp/sketches/oNocwxWHw](https://editor.p5js.org/ajrp/sketches/oNocwxWHw)
 
 
-Se om du kan lave følgende bevægelser, start med den øverste, uden brug af if-statements, men kun ved brug af modulus og heltals-division af frameCount! :
+Se om du kan lave følgende bevægelser, start med den øverste, uden brug af if-statements, men kun ved brug operationer med %,+,- og "heltals-division" på frameCount! :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z7RSALH8nYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Anvend "alpha", f.eks. på nedenstående måde, på for at lave "trace-effekten":
+Kopier nedenstående kode til din editor. Den anvender "alpha", for at lave "trace-effekten":
 ```
 function setup(){
   createCanvas(500,500);
@@ -243,6 +286,11 @@ function draw(){
   //firkant tegnes nu, og der kommer et "trace"  
   fill(255);
   rect(frameCount,250,2,2);
+  
+  // i rect(x,y,w,h)
+  // du må kun ændre på x.y,w og h
+  // prøv f.eks. at sætte x = frameCount%width
+
 }
 ```
 

@@ -1,4 +1,4 @@
-# 3.del. : Variabler & datatyper & typekonvertering & regnefejl - d.14/8-25
+# 3.del. : Variabler & datatyper & typekonvertering & regnefejl - d.14/8-26
 
 
 

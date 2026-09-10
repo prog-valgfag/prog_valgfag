@@ -12,7 +12,11 @@
 <details class="blue">
   <summary>Vigtig viden fra sidst</summary>
 
-- hvad menes med "operander" og "operator"
+- hvad menes med "operander" og "operator". Se eventuelt nedenstående:
+```
+pris = pris + 4;
+glad   = !sulten || spiser ; 
+```
 - hvordan afgøres om to variabler er ens, med "sammenligningsoperatorer"
 - hvad er "modulus"
 
@@ -228,6 +232,7 @@ Nedenfor ses et array jeg anvender som et objekt
 <details class="blue">
   <summary>for-loops og arrays</summary>
 
+```
   let a = [10,20,30];
   
   for(let i=0 ; i<a.length ; i++){
@@ -241,9 +246,7 @@ Nedenfor ses et array jeg anvender som et objekt
   for(let t of a){
     console.log(t) // printer 10 20 30 som en elementer
   }
-
-<pre class="blue">
-</pre>
+```
 
 </details>
 

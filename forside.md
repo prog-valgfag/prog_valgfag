@@ -17,7 +17,7 @@ Materiale :
 | 14/8 | [basic 3 : variabler, datatyper, typekonvertering og regnefejl](/dag2/del3.md) / [4 : vare beregner med både akkumuleret pris og vægt](/dag2/del4.md) | |
 | 18/8 | [basic 5 : for og while loops](/dag3/del5.md)                                                                 | [lektie : læs om for og while](https://p5js.org/reference/#Foundation)|
 | 1/9  | [basic 6 : operatorer](/dag4/del6_operatorer.md)                                                              | [lektie : skim denne oversigt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators )|
-| -    | basic 7 : arrays                                                                                              |                                         |
+| 11/9 | [basic 7 : arrays](/dag5/del7_arrays.md)                                                                      | [lektie : læs om arrays](https://p5js.org/reference/p5/Array/)|
 | -    | basic 8 : funktioner                                                                                          |                                         |
 | -    | basic 9 : rekursion med funktioner                                                                            |                                         |
 | -    | oop 1 : Objekter                                                                                              |                                         |

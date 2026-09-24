@@ -18,7 +18,7 @@ Materiale :
 | 18/8 | [basic 5 : for og while loops](/dag3/del5.md)                                                                 | [lektie : læs om for og while](https://p5js.org/reference/#Foundation)|
 | 1/9  | [basic 6 : operatorer](/dag4/del6_operatorer.md)                                                              | [lektie : skim denne oversigt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators )|
 | 11/9 | [basic 7 : arrays](/dag5/del7_arrays.md)                                                                      | [lektie : læs om arrays](https://p5js.org/reference/p5/Array/)|
-| -    | basic 8 : funktioner                                                                                          |                                         |
+| 25/9 | [basic 8 : funktioner](/dag6/del8_funktioner.md)                                                              | [lektie : læs om funktioner](https://p5js.org/reference/p5/function/)                                        |
 | -    | basic 9 : rekursion med funktioner                                                                            |                                         |
 | -    | oop 1 : Objekter                                                                                              |                                         |
 | -    | oop 2 - Klasser                                                                                               |                                         |

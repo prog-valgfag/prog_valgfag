@@ -15,7 +15,7 @@
 - hvad er en array ?"
 - hvordan opretter vi en array list `?"
 - hvad er en 2D array list ?"
-- smarte funktioner til array ?
+- der er mange smarte funktioner til array, som man bør bruge, slå dem op når nødvendigt  ... [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 
 </details>

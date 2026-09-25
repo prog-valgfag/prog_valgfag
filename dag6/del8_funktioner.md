@@ -306,11 +306,21 @@ Denne funktion skal rulle koden tilbage, så man kan læse beskeden igen.
 
 ### 🛠️ Hint/Forslag
 
-I gemme alfabetet som en global variabel. Husk, at I kan finde et bogstavs placering i alfabetet ved at bruge `alfabet.indexOf(bogstav)`.
+Det er vigtigt at vide at strings kan behandles som arrays, se nedenfor...
+
+Gem f.eks. alfabetet som en global variabel.
+
+I kan herefter finde et bogstavs placering i alfabetet ved at bruge `alfabet.indexOf(bogstav)`.
+
 
 ```javascript
-const alfabet = "abcdefghijklmnopqrstuvwxyz";
-```
+  let alfabet = "abcdefghijklmnopqrstuvwxyz";
+  // det er muligt at behandle en string som om det var et array
+  // se nedenfor
+  let i = alfabet.indexOf('6')
+  print(alfabet[4])
+  print(i)
+  ```
 
 
 </details>

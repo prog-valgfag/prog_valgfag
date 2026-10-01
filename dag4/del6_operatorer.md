@@ -1,4 +1,4 @@
-# Del 5 : Operatorer - d.1/9-26
+# Del 6 : Operatorer - d.1/9-26
 
 
 

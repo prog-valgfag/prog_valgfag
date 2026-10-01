@@ -1,4 +1,4 @@
-# Del 8 : rekursion med funktioner - d.12/9-25
+# Del 8 : rekursion med funktioner - d.2/10-26
 
 
 

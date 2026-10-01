@@ -1,4 +1,4 @@
-# Del 6 : Arrays - d.11/9-26
+# Del 7 : Arrays - d.11/9-26
 
 
 

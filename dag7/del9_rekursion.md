@@ -211,5 +211,20 @@ Indbyg mulighed for at brugeren kan ændre vinklen mens programmet kører.
 
 ![tree1](/dag7/biTree2.png)
 
+Det er klart nemmest at anvende p5js indbyggede vector-klasse. Her er et eksempel på de manipulationer man kan lave med vektorer:
+
+```
+  let v1 = createVector(10,0);//laver vektoren (10,0)
+  print(v1.x + " " + v1.y)
+  v1.rotate(PI/2)             //drejer vektoren 90 grader
+  print(v1.x + " " + v1.y)
+  v1.setMag(v1.mag()*0.5)     //lænden halveres
+  print(v1.x + " " + v1.y)
+
+```
+
+
+
+
 
 </details>

@@ -28,9 +28,9 @@ Man skal altid have to ting:
 
     Hvad er et Objekt ?
 
-    I objekt orienteret programmering arbejder ved at organiserer koden omkring objekter istedet for forskellige data og funktioner som ligger rundt.
+    I objekt orienteret programmering arbejder ved at organiserer koden omkring objekter istedet for forskellige data og funktioner.
 
-    Dermed er det nemt for os at genbruge kode, fx når vi bruger arv.
+    Dermed er det nemt for os at genbruge kode, fx når vi bruger "nedarving"s.
 
     
 
@@ -57,7 +57,7 @@ Notation med firkantede parenteser obj["property"]. Firkantede parenteser tillad
 Vi kan også slette en nøgle og dens værdi ved at bruge delete obj.key
 
 
-for at teste om en nøgle findes så kan vi bruge in operatør. 
+for at teste om en nøgle findes så kan vi bruge "in" operatoren. 
 
         let user = { name: "John", age: 30 };
 
@@ -153,3 +153,35 @@ opgave 2.
 
             Brug nedarvning fra en et objekt til at oprette flere cirkler.
                 evt. ændre værdierne på nøglerne til det nye objekt.
+</details>
+
+
+<details class = "green">
+    <summary>Bonus opgave</summary> 
+
+Byg dit eget Vektor objekt som du kan anvende i koden fra sidst:  "for det rekursive træ"
+
+Det er nu også nødvendigt at objekterne anvender indeholder funktioner,- brug gerne nedenstående kode:
+
+```
+let vektor = {
+  x : 10,
+  y :10,
+  setVektor(x,y){
+    this.x =x;
+    this.y= y;
+  }
+}
+
+function setup() {
+  createCanvas(400, 400);
+  let vektor2 = Object.create(vektor);
+  vektor2.setVektor(10,20);
+  print(vektor2.x + " "+vektor2.y)
+  print(vektor.x + " "+vektor.y)  
+}
+```
+
+
+
+</details>

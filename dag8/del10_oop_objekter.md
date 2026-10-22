@@ -27,32 +27,72 @@ Man skal altid have to ting:
     <summary>Nyt Emne : Objekter</summary> 
 
 Hvad er et Objekt ? I objekt orienteret programmering arbejder ved at organiserer koden omkring objekter istedet for forskellige data og funktioner.
-I modsætning af af fx en en enkelt variable så kan Objekter gemme flere forskellige typer af data.  
-
-Indbyggede primitive : string, number, boolean, bigint, undefinded, null og symbol
-
-Indbyggede objekter : Array ... og mange andre både i p5js og i js generelt
-
-
- ![obj](jsobj.png)
-
-et objekt oprettes ved at bruge krølle parenteser. 
-
-Et objekt indholder en nøgle og en værdi. Nøglen er navnet på den tilhørende værdi. Her arbejdes med en combination af key:value.
+I modsætning af af fx en en enkelt variable så kan Objekter gemme flere forskellige typer af data.  </br>
+JS indeholder bla. følgende indbyggede typer:
+- **Indbyggede primitive** : string, number, boolean, bigint, undefinded, null og symbol
+- **Indbyggede objekter** : Array ... og mange andre
 
 
-For at få adgang til en parameter kan vi bruge:
+Et objekt kan indeholde følgende:
+- **oprettes** : vha. "krølle-paranteser", og indholdet adskilles af "kommaer"
+- **properties** : indholder en nøgle og en værdi. Nøglen er navnet på den tilhørende værdi. Her arbejdes med en combination af key:value.
+- **method** :Et objekt kan indeholde "metoder" som faktisk bare er funktioner, men nu tilhører de selve objektet
 
-Punktnotationen: 
-
-obj.property.
-Notation med firkantede parenteser obj["property"]. Firkantede parenteser tillader at tage nøglen fra en variabel, f.eks obj[varWithKey].
-
-
-Vi kan også slette en nøgle og dens værdi ved at bruge delete obj.key
+ ![obj](jsobj2.jpg)
 
 
-for at teste om en nøgle findes så kan vi bruge "in" operatoren. 
+For at få adgang til og undersøge indholdet i et objekt, kan man bruge følgende måder:
+- **punkt-notationen**: **obj.property**. eller **obj.method(...)**
+- **firkantparanteser**:, som et array: **obj["property"]**. Firkantede parenteser tillader også at tage nøglen fra en variabel, f.eks **obj[varWithKey]**
+- **sletning**: Vi kan også slette en nøgle og dens værdi ved at bruge **delete obj.key**
+- **in-operator** : For at teste om en nøgle findes så kan vi bruge **"in" operatoren**. 
+
+***This***:
+Når vi anvender objekter kan man bruge keyworded "this" til at skelne mellem kode udenfor objektet og koden inden-i objektet.
+This er egentlig bare det objekt "som koden er inde i" altså betyder "this.x" x variablen inde i objektet  
+
+Eksempel på et objekt, og anvendelsen af "this":
+```
+let vektor = {
+  x: 100,
+  y: 100,
+  z: 100,
+  set(x,y){
+    this.x = x
+    this.y = y
+  }
+}
+```
+
+Brug af in:
+```
+ print( "x" in vektor ).  //udskriver true
+
+for(k in vektor){
+    print(k)      //udskriver alle keys i objektet
+}
+```
+
+Brug af firkant-operatorer til properties:
+```
+print(vektor["x"]);  //udskriver 100
+ 
+let pnavn = "x"
+print(vektor[pnavn]) //udskriver 100
+```
+
+Sletning af properties:
+```
+delete vektor.x;
+print(vektor["x"]);  //udskriver undefined
+```
+
+
+
+
+
+
+
 
         let user = { name: "John", age: 30 };
 

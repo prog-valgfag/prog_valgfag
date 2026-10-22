@@ -26,17 +26,12 @@ Man skal altid have to ting:
    <details class = "green">
     <summary>Nyt Emne : Objekter</summary> 
 
-    Hvad er et Objekt ?
+Hvad er et Objekt ? I objekt orienteret programmering arbejder ved at organiserer koden omkring objekter istedet for forskellige data og funktioner.
+I modsætning af af fx en en enkelt variable så kan Objekter gemme flere forskellige typer af data.  
 
-    I objekt orienteret programmering arbejder ved at organiserer koden omkring objekter istedet for forskellige data og funktioner.
+Indbyggede primitive : string, number, boolean, bigint, undefinded, null og symbol
 
-    Dermed er det nemt for os at genbruge kode, fx når vi bruger "nedarving"s.
-
-    
-
-    Vi har otte Datatyper i javascript og syv af dem kaldes for Primitive fordi deres værdier kun indholder en ting.
-
-    i modsætning af af fx en en enkelt variable så kan Objekter gemme flere forskellige typer af data.  
+Indbyggede objekter : Array ... og mange andre både i p5js og i js generelt
 
 
  ![obj](jsobj.png)

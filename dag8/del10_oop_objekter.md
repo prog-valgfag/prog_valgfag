@@ -41,11 +41,12 @@ Et objekt kan indeholde følgende:
  ![obj](jsobj2.jpg)
 
 
-For at få adgang til og undersøge indholdet i et objekt, kan man bruge følgende måder:
+For at få adgang til og undersøge og manipulere indholdet i et objekt, kan man bruge følgende måder:
 - **punkt-notationen**: **obj.property**. eller **obj.method(...)**
 - **firkantparanteser**:, som et array: **obj["property"]**. Firkantede parenteser tillader også at tage nøglen fra en variabel, f.eks **obj[varWithKey]**
 - **sletning**: Vi kan også slette en nøgle og dens værdi ved at bruge **delete obj.key**
 - **in-operator** : For at teste om en nøgle findes så kan vi bruge **"in" operatoren**. 
+- ***kopiere objekter** : Kan bla. gøres således **Object.create(mitObjekt)**
 
 ***This***:
 Når vi anvender objekter kan man bruge keyworded "this" til at skelne mellem kode udenfor objektet og koden inden-i objektet.
@@ -87,22 +88,18 @@ delete vektor.x;
 print(vektor["x"]);  //udskriver undefined
 ```
 
+Kopier et objekt:
+```
+let vektor2 = Object.create(vektor);
+```
 
+</details>
 
+<details class = "green">
+    <summary>Dagens opgaver</summary> 
 
-
-
-
-
-        let user = { name: "John", age: 30 };
-
-            alert( "age" in user ); // true, user.age exists
-            alert( "blabla" in user ); // false, user.blabla doesn't exist
-
-
-live kodning med eksempler.
-
-
+Du kan evt. tage udgangspunkt i denne kode, til dagens opgaver
+```
         let Cirkledata = {
              x: 200,
             y: 200,
@@ -132,62 +129,52 @@ live kodning med eksempler.
   
             circle(Cirkledata.x, Cirkledata.y, Cirkledata.d)
         }
+```
+
+
+**opgave 1.** 
+
+- opret et tomt objekt kaldes Cirkledata. 
+
+- tilføj  en key X som har en værdi af 200. 
+
+- tilføj  en key med en string værdi. 
+
+- Slet X ved at skrive kode i din function setup.
+
+console.log efter hvert trin for at se resultatet.
 
 
 
+**opgave 2.**
 
 
+**2.1** 
 
-</details>
+Lav det så cirklen skifter til en tilfældig farve, når du klikker på canvas.
 
-<details class = "green">
-    <summary>Dagens opgaver</summary> 
-
-
-    opgave 1. 
-
-	- opret et tomt objekt kaldes Cirkledata. 
-
-	- tilføj  en key X som har en værdi af 200. 
-	
-	- tilføj  en key med en string værdi. 
-
-	- Slet X ved at skrive kode i din function setup.
-	
-	console.log efter hvert trin for at se resultatet.
+Tip: Brug mousePressed() og random(255) til at ændre Cirkledata.c.
 
 
+**2.2**  	
 
-opgave 2.
-
-	
- byg videre med koden vist her. 
-
-	2.1 
-
-		Lav det så cirklen skifter til en tilfældig farve, når du klikker på canvas.
-
-		Tip: Brug mousePressed() og random(255) til at ændre Cirkledata.c.
+Tilføj en funktion så når du trykker en tast (f.eks. 'h'), skifter Cirkledata.isVisible mellem true og false.
 
 
-	2.2  	
+**2.3**
+
+Lav et array circles, hvor du kan have flere cirkler. Hver cirkel skal have samme egenskaber som Cirkledata.
+
+Brug funktionen setup() til at oprette mindst 3 cirkler med forskellige farver, positioner og størrelser.
+
+Brug en for-loop i draw() til at tegne alle cirklerne.
 
 
-		Tilføj en funktion så når du trykker en tast (f.eks. 'h'), skifter Cirkledata.isVisible mellem true og false.
+**2.4** 
 
+Brug nedarvning fra en et objekt til at oprette flere cirkler.
 
-	2.3   
-		Lav et array circles, hvor du kan have flere cirkler. Hver cirkel skal have samme egenskaber som Cirkledata.
-
-		Brug funktionen setup() til at oprette mindst 3 cirkler med forskellige farver, positioner og størrelser.
-
-		Brug en for-loop i draw() til at tegne alle cirklerne.
-
-
-        Bonus Opgave: 
-
-            Brug nedarvning fra en et objekt til at oprette flere cirkler.
-                evt. ændre værdierne på nøglerne til det nye objekt.
+evt. ændre værdierne på nøglerne til det nye objekt.
 </details>
 
 

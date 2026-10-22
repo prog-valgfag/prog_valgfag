@@ -183,7 +183,7 @@ evt. ændre værdierne på nøglerne til det nye objekt.
 
 Byg dit eget Vektor objekt som du kan anvende i koden fra sidst:  "for det rekursive træ"
 
-Det er nu også nødvendigt at objekterne anvender indeholder funktioner,- brug gerne nedenstående kode:
+Dit Vektor-objekt, skal nu indeholde de samme "funktioner"/"metoder" som dem der er i p5js egen Vector!
 
 ```
 let vektor = {

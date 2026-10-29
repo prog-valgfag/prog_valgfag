@@ -18,11 +18,12 @@ Materiale :
 | 18/8 | [basic 5 : for og while loops](/dag3/del5.md)                                                                 | [lektie : læs om for og while](https://p5js.org/reference/#Foundation)|
 | 1/9  | [basic 6 : operatorer](/dag4/del6_operatorer.md)                                                              | [lektie : skim denne oversigt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators )|
 | 11/9 | [basic 7 : arrays](/dag5/del7_arrays.md)                                                                      | [lektie : læs om arrays](https://p5js.org/reference/p5/Array/)|
-| 25/9 | [basic 8 : funktioner](/dag6/del8_funktioner.md)                                                              | [lektie : læs om funktioner](https://p5js.org/reference/p5/function/)                                        |
+| 25/9 | [basic 8 : funktioner](/dag6/del8_funktioner.md)                                                              | [lektie : læs om funktioner](https://p5js.org/reference/p5/function/) |
 | 2/10 | [basic 9 : rekursion med funktioner](/dag7/del9_rekursion.md)                                                 |                                         |
 | 8/10 | [oop 1 : Objekter](/dag8/del10_oop_objekter.md)                                                               | [lektie : læs om bjekter](https://p5js.org/reference/p5/Object/) |
-| 27/10| [oop 2 - Klasser](/dag9/oop-klasser.md)                                                                       | [lektie : læs om klasser](https://p5js.org/reference/p5/class/)  |
-| -    | oop 3 - Nedarvning + Omfattende Genopfriskning                                                                |                                         |
+| 27/10| [oop 2 - Klasser + Nedarvning](/dag9/oop-klasser.md)                                                          | [lektie : læs om klasser](https://p5js.org/reference/p5/class/)  |
+|      |                                                                                                               |                                         |
+| 30/11| [repetition 1 - Genopfriskning af emner & Test](/dag10/RepetitionOgTest.md)                                   |                                         |
 | -    | oop 4 - Referencer + Copy                                                                                     |                                         |
 | -    | algoritmer 1 - simpel sortering                                                                               |                                         |
 | -    | algoritmer 2 - søgning                                                                                        |                                         |

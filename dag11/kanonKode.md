@@ -4,6 +4,9 @@ Bemærk: Dette er en lidt svær opgave, som kræver, at I bruger god tid på at 
 Åbn koden her: [KanonKasteparabel](https://editor.p5js.org/mortenTEC/sketches/t4jsUIVxb)
 
 Sæt dig ind i, hvordan programmet er delt op i en hovedfil og to klasse-filer.
+Se på billedet nedenfor hvordan du ser alle filerne i editoren.</br>
+Opgaverne står under billedet.
+![](/dag11/kodeKanonPic.png)
 
 ## ⚠️ Regler for koden
 Ingen nye klasser.

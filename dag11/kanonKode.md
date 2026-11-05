@@ -6,7 +6,9 @@ Bemærk: Dette er en lidt svær opgave, som kræver, at I bruger god tid på at 
 Sæt dig ind i, hvordan programmet er delt op i en hovedfil og to klasse-filer.
 Se på billedet nedenfor hvordan du ser alle filerne i editoren.</br>
 Opgaverne står under billedet.
-![](/dag11/kodeKanonPic.png)
+
+<img src="/dag11/kodeKanonPic.png" alt="Beskrivelse af billedet" style="width: 30%; height: auto;">
+
 
 ## ⚠️ Regler for koden
 Ingen nye klasser.

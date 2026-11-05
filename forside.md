@@ -23,8 +23,9 @@ Materiale :
 | 8/10 | [oop 1 : Objekter](/dag8/del10_oop_objekter.md)                                                               | [lektie : læs om bjekter](https://p5js.org/reference/p5/Object/) |
 | 27/10| [oop 2 - Klasser + Nedarvning](/dag9/oop-klasser.md)                                                          | [lektie : læs om klasser](https://p5js.org/reference/p5/class/)  |
 |      |                                                                                                               |                                         |
-| 30/11| [repetition 1 - Genopfriskning af emner & Test](/dag10/RepetitionOgTest.md)                                   |                                         |
-| -    | oop 4 - Referencer + Copy                                                                                     |                                         |
+| 30/10| [repetition 1 - Genopfriskning af emner & Test](/dag10/RepetitionOgTest.md)                                   |                                         |
+|      |                                                                                                               |                                         |
+| 6/11 | [KanonOpgave: Byg videre på koden - virtuel time](/dag11/kanonKode.md)                                                                                     |                                         |
 | -    | algoritmer 1 - simpel sortering                                                                               |                                         |
 | -    | algoritmer 2 - søgning                                                                                        |                                         |
 | -    | web 1 - Webprogrammering basic                                                                                |                                         |

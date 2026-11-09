@@ -26,7 +26,7 @@ Materiale :
 | 30/10| [repetition 1 - Genopfriskning af emner & Test](/dag10/RepetitionOgTest.md)                                   |                                         |
 |      |                                                                                                               |                                         |
 | 6/11 | [KanonOpgave: Byg videre på koden - virtuel time](/dag11/kanonKode.md)                                                                                     |                                         |
-| -    | algoritmer 1 - simpel sortering                                                                               |                                         |
+|10/11 | [algoritmer 1 - simpel sortering](/dag12/algoritmer.md)                                                                               |                                         |
 | -    | algoritmer 2 - søgning                                                                                        |                                         |
 | -    | web 1 - Webprogrammering basic                                                                                |                                         |
 | -    | web 2 - Framework Deno                                                                                        |                                         |

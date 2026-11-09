@@ -1,9 +1,25 @@
 
 # Del 14 : Intro til algoritmer og sortering
 
-***Nye termer:*** (a)algoritme, (b)sorteringsalgoritme, (c)pseudokode
 
+***Nye termer:*** (a)algoritme, (b)sorteringsalgoritme, (c)pseudokode
 ***Læringsmål:*** (a)skrive psedokode om til kode, (b)forståelse af begrebet "sorterings-algoritme"
+
+
+<details class="blue">
+      <summary>Fra sidst : Testen og Kanonopgaven</summary>
+
+Vi gennemgår først testen, og i får jeres besvarelser tilbage:</br>
+[Test 1 - kan ses her](/dag12/TEST1.pdf)    
+
+Herefter gennemgåes kanonopgaven:</br>
+[KanonKasteparabel - original kode ses her](https://editor.p5js.org/mortenTEC/sketches/t4jsUIVxb)
+- koden af rotation skal forenkles ... alt for indviklet nøjes med at tage heading af en vektor
+- velocity på kuglen, skal anvende en ny varaiabel "speed" som skal kunne indstilles
+- beregning af position for kuglen, skal buge variable "gravity" der skal kunne indstilles
+
+
+</details>
 
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (--------------------------------------------      NYT EMNE        -----------------------------------------------------------)
@@ -64,8 +80,6 @@ for i <-- 0 til n-1
 
 </details>
 
-
-
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
 [//]: # (--------------------------------------------      OPGAVE          -----------------------------------------------------------)
 [//]: # (-----------------------------------------------------------------------------------------------------------------------------)
@@ -79,13 +93,25 @@ for i <-- 0 til n-1
 
 I denne opgave skal I selv bygge sorteringen og de arrays - I må ikke bruge indbyggede funktioner
 I kan evt. bruge array-funktion "slice()" til at kopiere arrays.
+```
+let l1 = [1,2,3,4]
+let l2 = liste.slice()
+```
+
+
 
 ***Del 1*** : Byg en funktion, der laver et array af omvendt sorterede tal.
 Funktionen skal tage "længden" af arrayet som input.
-Funktionen skal retunere arrayet.
+Funktionen skal retunere arrayet. 
 
-***Del 2*** : Implementer de to forskellige sorteringsmetoder i hver deres funktion.
-Funktionerne skal have et array som input. 
+```
+let l3 = omvendtArray(5);
+//l3 indeholder nu : [5,4,3,2,1]
+```
+
+
+***Del 2*** : Implementer de to forskellige sorteringsmetoder, fra eksemplet ovenfor, i hver deres funktion.
+Funktionerne skal have et array som input, **anvend funktionen fra del.1 til at lave de arrays der skal sorteres**.
 Funktionerne skal retunere en kopi af arrayet.
 
 ***Del 3*** : Brug "mills()" til at beregne hvor længe det tager at sortere et array på 10000 tal, genereret med funktionen (del 1),  vha. de to sorterings-metoder.

@@ -1,5 +1,8 @@
 # Opgave: Visualisering af sorteringsalgoritme, 
-# Afleveres senest d.20/12
+# Afleveres senest d.10/1-2027
+
+## Grupper:
+I må gerne være op til 3 personer
 
 ## Krav til koden:
 * Du skal kode et JavaScript-program, der visuelt viser en valgfri sorteringsalgoritme (f.eks. Bubble Sort) skridt for skridt på skærmen.
